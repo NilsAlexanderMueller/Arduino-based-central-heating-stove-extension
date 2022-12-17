@@ -1,6 +1,23 @@
 # Arduino-based central heating stove extension
 
+Integrates a stove into a central heating system. Reads temperature measurements from the central heating system and the stove to control valves and circulating pumps to heat raw water or/and heaters from the stove's smoke gas.
+
+## System overview
+
 ![System Overview](/Pictures%20and%20Drawings/System%20overview.png)
+
+Temperature Measurements:
+* Smoke gas PT1000 (4-wire)
+* Raw water PT1000 (2-wire)
+* Forward flow central heating PT1000 (2-wire)
+ 
+Valves
+* Stove heat to Raw water
+* Stove heat to Forward flow central heating
+  
+Circulating pumps
+* Stove heat exchanger flow
+* Forward flow central heating
 
 # License
 
