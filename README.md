@@ -1,6 +1,6 @@
 # Arduino-based central heating stove extension
 
-[System Overview](Pictures and Drawings/System overview.png)
+![System Overview](Pictures and Drawings/System overview.png)
 
 # License
 
