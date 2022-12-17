@@ -26,7 +26,19 @@ Circulating pumps
 * Stove heat exchanger flow
 * Forward flow central heating
 
-# Hardware Implementation
+# Software implementation
+
+The code was written using Arduino IDE 1.8.19 and doesn't require any external libraries. After the setup and declaration of several constants the code consists of 8 parts which are designed to function just like standard programmable logic controllers (PLC):
+1. readInput(); Read the current ADC input values from the Nano's analog input pins
+2. calcR(): Calculating the resistances of the PTC resistors from the ADC readings
+3. RtoT_PT1000(): Calculating the temperatures from the resistances of the PTC resistors using lookup table from -200 °C to +859 °C and using an exstimation function ot of those bounds
+4. setMode(): Setting the operating mode depending on temperature readings
+5. setOutput(mode): Set Outputs depending on the calculated operating mode
+6. setActuatorsPower(): Set actuators power if the electric valces have to change status for 30 seconds
+7. writeSerial(): Sending temperature readings and current operating mode to serial for debugging purposes
+8. writeOutput(): Write the output values to the Nano's digital output pins
+
+# Hardware implementation
 
 Pictures of the implementation can be seen below.
 
