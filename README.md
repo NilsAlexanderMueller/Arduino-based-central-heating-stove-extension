@@ -40,6 +40,22 @@ The code was written using Arduino IDE 1.8.19 and doesn't require any external l
 
 # Hardware implementation
 
+Arduino Nano pin connection scheme:
+
+| Arduino Nano Pin | Function | Connection |
+| ----------- | -------- | ------ |
+| D2 | Digital Output | Raw water valve |
+| D3 | Digital Output | Central heating system forward flow valve |
+| D4 | Digital Output | 30 sec energy for valves |
+| D5 | Digital Output | Stove circulating pump |
+| D6 | Digital Output | Forward flow heating circuit circulating pump |
+| A0 | Analog Input | 2-wire-Raw water |
+| A1 | Analog Input | 2-wire-Forward flow |
+| A2 | Analog Input | 4-wire-Smoke gas (1) |
+| A4 | Analog Input | 4-wire-Smoke gas (2) |
+| A6 | Analog Input | 4-wire-Smoke gas (3) |
+
+## Pictures
 Pictures of the implementation can be seen below.
 
 ![Test Setup PCB](/Pictures%20and%20Drawings/Test_Setup_PCB.jpg)
