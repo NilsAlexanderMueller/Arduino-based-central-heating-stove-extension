@@ -31,7 +31,7 @@ Circulating pumps
 Pictures of the implementation can be seen below.
 
 ![Test Setup PCB](/Pictures%20and%20Drawings/Test_Setup_PCB.jpg)
-![Test Setup with pipes](/Pictures%20and%20Drawings/Test_Setup_fully_functional.jpg)
+![Test Setup with pipes](/Pictures%20and%20Drawings/Test_Setup_fully_functional_.jpg)
 
 # License
 
