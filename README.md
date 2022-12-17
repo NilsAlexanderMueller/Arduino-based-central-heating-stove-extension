@@ -26,6 +26,13 @@ Circulating pumps
 * Stove heat exchanger flow
 * Forward flow central heating
 
+# Hardware Implementation
+
+Pictures of the implementation can be seen below.
+
+![Test Setup PCB](/Pictures%20and%20Drawings/Test_Setup_PCB.jpg)
+![Test Setup with pipes](/Pictures%20and%20Drawings/Test_Setup_fully_functional.jpg)
+
 # License
 
 This library is free software; you can redistribute it and/or
